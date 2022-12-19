@@ -354,7 +354,7 @@ Created: 2014.09.15 by Sky and Hamburger,  Modified by Kwen String at 2016.04.08
 % \setCJKmainfont[BoldFont={Adobe Heiti Std}, ItalicFont={Adobe Kaiti Std}]{Adobe Fangsong Std}
 
 % 设置 CJK 主字体，也就是设置 \rmfamily 的 CJK 字体
-\setCJKmainfont[AutoFakeBold]{FangSong_GB2312}
+\setCJKmainfont[AutoFakeBold]{AdobeFangsongStd-Regular}
 \renewcommand{\fangsong}{\rmfamily} % 这样就可以使用粗体辽
 
 %\setCJKfallbackfamilyfont{\CJKrmdefault}[BoldFont={Adobe Heiti Std}, ItalicFont={Adobe Kaiti Std}]{Adobe Fangsong Std}
@@ -377,7 +377,7 @@ Created: 2014.09.15 by Sky and Hamburger,  Modified by Kwen String at 2016.04.08
 % 封面
 % @zzt：	使用伪粗体对封面“中文论文题目”加粗
 % 需要在\documentclass[]里加上AutoFakeBold
-\setCJKfamilyfont{zhsong}[AutoFakeBold = {2.17}]{SimSun}
+\setCJKfamilyfont{zhsong}[AutoFakeBold = {2.17}]{AdobeSongStd-Light}
 \renewcommand*{\songti}{\CJKfamily{zhsong}}
 \newcommand\ZJUmakecover{
 	\cleardoublepage
